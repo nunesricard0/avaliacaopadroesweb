@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica Systems</title>
+    <link rel="stylesheet" href="estilos.css">  
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #000000; 
+            color: #FFD700; 
+        }
+        .header img {
+            max-width: 50px;
+            margin-right: 20px;
+        }
+        .nav {
+            background-color: #4B0082; 
+            overflow: hidden;
+        }
+        .nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            background-color: #FFD700; 
+            color: #000000; 
+        }
+        .main {
+            padding: 20px;
+        }
+        .main .section {
+            margin-bottom: 20px;
+        }
+        .contato {
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #000000; 
+            color: #FFD700; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <img src="logo.png" alt="Logotipo">
+    <h1>Lógica Systems</h1>
+</div>
+
+<div class="nav">
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#habilidades">Feedbacks</a>
+    <a href="#contato">Contato</a>
+</div>
+
+<div class="main">
+    <div id="inicio" class="section">
+        <h2>Sobre Nós</h2>
+        <p>Fundada em 2010, a <strong>Lógica Systems</strong> é uma empresa líder no desenvolvimento de soluções tecnológicas inovadoras. Nossa missão é fornecer tecnologia de ponta que ajude empresas e indivíduos a alcançar seus objetivos de maneira eficiente e eficaz. Nossa equipe é composta por especialistas em diversas áreas, incluindo desenvolvimento de software, inteligência artificial, segurança cibernética e soluções em nuvem.</p>
+        <p>Ao longo dos anos, construímos uma reputação sólida baseada em nosso compromisso com a qualidade, a inovação e a satisfação do cliente. Nossos produtos e serviços são projetados para atender às necessidades específicas de cada cliente, garantindo soluções personalizadas que impulsionam o crescimento e a competitividade no mercado.</p>
+        <p>Na Lógica Systems, acreditamos que a tecnologia pode transformar o mundo, e estamos dedicados a ser parte dessa transformação. Trabalhamos incansavelmente para estar na vanguarda das tendências tecnológicas e oferecer soluções que não apenas atendem, mas superam as expectativas de nossos clientes.</p>
+    </div>
+    <div id="habilidades" class="section">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Desenvolvimento de Software Personalizado</li>
+            <li>Consultoria em Segurança Cibernética</li>
+            <li>Soluções em Nuvem</li>
+            <li>Integração de Sistemas</li>
+        </ul>
+    </div>
+</div>
+
+<div id="contato" class="contato">
+    <h2>Contato</h2>
+    <form action="#">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+<div class="footer">
+    <p>&copy; TSI 2024.1 .</p>
+</div>
+
+</body>
+</html>

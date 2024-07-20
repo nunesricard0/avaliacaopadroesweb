@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #333;
+    color: #f2f2f2;
+}
+
+.header img {
+    max-width: 50px;
+    margin-right: 20px;
+}
+
+.nav {
+    background-color: #444;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main .section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.main h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato form input, .contato form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.contato form button {
+    padding: 10px;
+    background-color: #333;
+    color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+}
+
+.contato form button:hover {
+    background-color: #555;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #f2f2f2;
+}
